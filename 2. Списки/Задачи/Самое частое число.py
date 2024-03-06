@@ -1,4 +1,4 @@
-nums=list(map(int, input().split()))
+nums = list(map(int, input().split()))
 m = 0
 n = 0
 for i in range(len(nums)):
@@ -6,9 +6,3 @@ for i in range(len(nums)):
     if m < count:
         m = count
         nums[i] = n
-
-
-
-
-
-
